@@ -8,6 +8,8 @@ import Home from './pages/Home';
 import MarathonTraining from './pages/MarathonTraining';
 import GymTraining from './pages/GymTraining';
 import UserStats from './pages/UserStats';
+import FitnessGoals from './pages/FitnessGoals';
+import About from './pages/About';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/marathon-training" element={<MarathonTraining />} />
         <Route path="/gym-training" element={<GymTraining />} />
         <Route path="/user-stats" element={<UserStats />} />
+        <Route path="/fitness-goals" element={<FitnessGoals />} />
+        <Route path="/about-the-developer" element={<About />} />
       </Routes>
     </Router>
   );

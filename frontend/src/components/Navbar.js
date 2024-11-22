@@ -25,11 +25,8 @@ const Navbar = () => {
           <Link to="/dashboard" className="hover:text-indigo-200">
             Dashboard
           </Link>
-          <Link to="/about" className="hover:text-indigo-200">
-            About
-          </Link>
-          <Link to="/contact" className="hover:text-indigo-200">
-            Contact
+          <Link to="/about-the-developer" className="hover:text-indigo-200">
+            About the Developer
           </Link>
 
           {/* Authentication Buttons */}

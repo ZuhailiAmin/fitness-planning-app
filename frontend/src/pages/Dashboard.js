@@ -141,9 +141,11 @@ const Dashboard = () => {
           <p className="text-gray-600 mt-2">
             Set new fitness goals and achieve milestones!
           </p>
-          <button className="mt-4 bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">
-            Set Goals
-          </button>
+          <Link to="/fitness-goals">
+              <button className="mt-4 bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700">
+                View Plan
+              </button>
+            </Link>
         </div>
   
       </div>
